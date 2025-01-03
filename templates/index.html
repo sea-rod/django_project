@@ -1,0 +1,48 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header class="header">
+        <h1>My Projects</h1>
+        <p>Welcome to my portfolio of projects. Here are some of the things I've worked on!</p>
+    </header>
+
+    <section class="projects">
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300" alt="Project 1">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal website showcasing my work and skills.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300" alt="Project 2">
+            <h3>Project 2: E-commerce App</h3>
+            <p>A fully functional e-commerce application for online shopping.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="https://via.placeholder.com/300" alt="Project 3">
+            <h3>Project 3: Mobile Game</h3>
+            <p>A mobile game that combines strategy and puzzles.</p>
+            <a href="#">View Project</a>
+        </div>
+
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <footer class="footer">
+        <p>Designed by Seamus</p>
+    </footer>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
